@@ -78,6 +78,90 @@
         </div>
       </div>
     </section>
+  
+  <!-- Subscriptions Block (inserted) -->
+  <section id="subscriptions" class="plans" aria-labelledby="plans-title">
+    <style>
+      /* Scoped styles for the subscriptions block */
+      #subscriptions{padding:56px 0;border-top:1px solid #eee;background:#fafafa}
+      #subscriptions .wrap{width:min(100% - 32px,1160px);margin-inline:auto}
+      #plans-title{margin:0 0 20px;font-size:clamp(22px,3.2vw,32px);line-height:1.2}
+      .plans-grid{display:grid;grid-template-columns:1fr;gap:18px}
+      @media(min-width:860px){.plans-grid{grid-template-columns:1fr 1fr}}
+      .plan-card{background:#fff;border:1px solid #e5e5e5;border-radius:16px;padding:20px;box-shadow:0 1px 2px rgba(0,0,0,0.04)}
+      .plan-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:8px}
+      .plan-name{font-weight:800}
+      .badge{display:inline-flex;align-items:center;gap:8px;font-size:12px;color:#0a0;border:1px solid #cfe8cf;background:#f3fff3;padding:4px 8px;border-radius:999px}
+      .no-commercial{color:#a00;border-color:#f1caca;background:#fff6f6}
+      .plan-desc{color:#444;margin:4px 0 12px;font-size:14px}
+      .rows{display:grid;gap:10px}
+      .row{display:flex;align-items:center;justify-content:space-between;border:1px solid #eee;border-radius:12px;padding:12px 14px}
+      .row .term{font-weight:700}
+      .row .coins{font-size:13px;color:#555}
+      .footnote{margin-top:14px;color:#666;font-size:12px}
+      .legend{margin-top:8px;font-size:12px;color:#555}
+      .legend b{font-weight:800}
+    </style>
+    <div class="wrap">
+      <h2 id="plans-title">Subscriptions</h2>
+
+      <div class="plans-grid">
+        <!-- Pro plan -->
+        <article class="plan-card" aria-label="Pro plan">
+          <div class="plan-head">
+            <div class="plan-name">Pro</div>
+            <div class="badge no-commercial" title="No commercial rights">No commercial use</div>
+          </div>
+          <p class="plan-desc">Includes access to features and annual/weekly coins.</p>
+          <div class="rows">
+            <div class="row" role="listitem" aria-label="Annual Pro">
+              <div class="term">Annual subscription</div>
+              <div class="price-coins">
+                <div class="price" aria-label="Price">$49.99</div>
+                <div class="coins" aria-label="Coins">3,500 coins</div>
+              </div>
+            </div>
+            <div class="row" role="listitem" aria-label="Weekly Pro">
+              <div class="term">Weekly subscription</div>
+              <div class="price-coins">
+                <div class="price" aria-label="Price">$7.99</div>
+                <div class="coins" aria-label="Coins">600 coins</div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Business plan -->
+        <article class="plan-card" aria-label="Business plan">
+          <div class="plan-head">
+            <div class="plan-name">Business</div>
+            <div class="badge" title="Commercial rights included">Commercial use</div>
+          </div>
+          <p class="plan-desc">Includes access to features and annual/weekly coins.</p>
+          <div class="rows">
+            <div class="row" role="listitem" aria-label="Annual Business">
+              <div class="term">Annual subscription</div>
+              <div class="price-coins">
+                <div class="price" aria-label="Price">$99.99</div>
+                <div class="coins" aria-label="Coins">4,500 coins</div>
+              </div>
+            </div>
+            <div class="row" role="listitem" aria-label="Weekly Business">
+              <div class="term">Weekly subscription</div>
+              <div class="price-coins">
+                <div class="price" aria-label="Price">$9.99</div>
+                <div class="coins" aria-label="Coins">600 coins</div>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <div class="legend">Coins are an internal currency credited under each subscription.</div>
+      <p class="footnote">All prices are shown in U.S. dollars and are current for the United States. Prices may vary by region and currency.</p>
+    </div>
+  </section>
+
   </main>
 
   <footer class="footer">
