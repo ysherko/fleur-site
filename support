@@ -52,32 +52,6 @@
   </header>
 
   <main id="top" class="container">
-    <section class="hero">
-      <div class="grid">
-        <div>
-          <h1>Support</h1>
-          <p class="sub">Got something you want to talk about? Contact us by email and we promise to get back to you as soon as we can.</p>
-          <a class="cta" href="#notify">contact@fleurlab.ai</a>
-          <div class="social">
-  <a href="https://instagram.com/fleurlab.ai" target="_blank" rel="noopener" aria-label="Instagram">
-    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-      <path d="M7 2C4.24 2 2 4.24 2 7v10c0 2.76 2.24 5 5 5h10c2.76 0 5-2.24 5-5V7c0-2.76-2.24-5-5-5H7zm10 2c1.65 0 3 1.35 3 3v10c0 1.65-1.35 3-3 3H7c-1.65 0-3-1.35-3-3V7c0-1.65 1.35-3 3-3h10zM12 7a5 5 0 100 10 5 5 0 000-10zm0 2a3 3 0 110 6 3 3 0 010-6zm4.5-3a1.5 1.5 0 100 3 1.5 1.5 0 000-3z"/>
-    </svg>
-  </a>
-  <a href="https://tiktok.com/@fleurlab.ai" target="_blank" rel="noopener" aria-label="TikTok">
-    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-      <path d="M12 2c.06 2.22 1.13 3.89 2.83 4.86 1.01.58 2.18.9 3.44.9V11c-.98 0-1.93-.2-2.79-.57-.44-.2-.86-.42-1.25-.68v6.39c0 3.35-2.7 6.06-6.06 6.06-3.35 0-6.06-2.71-6.06-6.06 0-3.08 2.33-5.62 5.35-6.02.24-.03.49-.04.74-.04.34 0 .67.03 1 .08v2.12a3.88 3.88 0 00-1-.13c-2.01 0-3.64 1.63-3.64 3.64s1.63 3.64 3.64 3.64 3.64-1.63 3.64-3.64V2h2.96z"/>
-    </svg>
-  </a>
-</div>
-        </div>
-        <div class="phones">
-          <div class="iphone"><div class="bezel"><div class="island"></div><div class="screen"><img src="Home.png" alt="Fleur Home screen"></div></div></div>
-          <div class="iphone"><div class="bezel"><div class="island"></div><div class="screen"><video src="effect.mp4" autoplay muted playsinline loop aria-label="AI demo"></video></div></div></div>
-        </div>
-      </div>
-    </section>
-  
   <!-- Subscriptions Block (inserted) -->
   <section id="subscriptions" class="plans" aria-labelledby="plans-title">
     <style>
